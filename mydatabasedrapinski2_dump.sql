@@ -38,7 +38,7 @@ CREATE TABLE `emails` (
 
 LOCK TABLES `emails` WRITE;
 /*!40000 ALTER TABLE `emails` DISABLE KEYS */;
-INSERT INTO `emails` VALUES (1,1,'bartek@atu.ie'),(2,2,'des@atu.ie');
+INSERT INTO `emails` VALUES (1,1,'bartek@atu.ie'),(2,2,'des@atu.ie'),(3,3,'mark1@atu.ie');
 /*!40000 ALTER TABLE `emails` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -63,7 +63,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'bartek02','securepass'),(2,'des98','electronics');
+INSERT INTO `users` VALUES (1,'bartek02','securepass'),(2,'des98','electronics'),(3,'Mark','technology');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
