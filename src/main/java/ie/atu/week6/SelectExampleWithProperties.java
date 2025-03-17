@@ -16,7 +16,7 @@ public class SelectExampleWithProperties {
 
         // Load from the classpath. Note the leading "/".
         try (InputStream input = SelectExampleWithProperties.class
-                .getResourceAsStream("/db.properties")) {
+                .getResourceAsStream("/db.properties")) {   // Not commiting db.properties as I created my MySQL account using a password derived from my regular
 
             // If the file isn't found, getResourceAsStream returns null
             if (input == null) {
